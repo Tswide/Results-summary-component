@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  
+  <title>Frontend Mentor | Results summary component</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap" rel="stylesheet">
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <div id="result__sumary">
+    <h2 id="title__result">Your Result</h2>
+  
+    <div id="circle__moyenne">
+      <p id="result__moyenne">76</p>
+      <p id="total__result">of 100</p>
+    </div>
+  
+    <h3 id="result__satisfaction">Great</h3>
+    <p id="description__result">You scored higher than 65% of the people who have taken these tests.</p>
+  </div>
+
+  <div id="quote__summary">
+    <h2 id="title__summary">Summary</h2>
+
+      <div class="quote red_background">
+        <div class="groupe_icon_title">
+          <img src="/assets/images/icon-reaction.svg" alt="illustration" />
+          <p class="red">Reaction</p>
+        </div>
+        <p class="result_quote">80 <span>/ 100</span></p>
+      </div>
+  
+      <div class="quote yellow_background">
+        <div class="groupe_icon_title">
+          <img src="/assets/images/icon-memory.svg" alt="illustration" />
+          <p class="yellow">Memory</p>
+        </div>
+        <p class="result_quote">92 <span>/ 100</span></p>
+      </div>
+  
+      <div class="quote green_background">
+        <div class="groupe_icon_title">
+          <img src="/assets/images/icon-verbal.svg" alt="illustration" />
+          <p class="green">Verbal</p> 
+        </div>
+        <p class="result_quote">61 <span>/ 100</span></p>
+      </div>
+  
+      <div class="quote blue_background">
+        <div class="groupe_icon_title">
+          <img src="/assets/images/icon-visual.svg" alt="illustration" />
+          <p class="blue">Visual</p> 
+        </div>
+        <p class="result_quote">72 <span>/ 100</span></p>
+      </div>
+
+    <button>Continue</button>
+  </div>
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Tswide</a>.
+  </div>
+</body>
+</html>
